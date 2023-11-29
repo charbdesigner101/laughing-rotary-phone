@@ -1,0 +1,51 @@
+paths:
+  data: src/data
+  collections: ''
+  layouts: src/layouts
+  static: ''
+  uploads: uploads
+  includes: _includes
+  pages: ''
+collections_config:
+  typography:
+    path: src/content/post/note
+    output: true
+    icon: notes
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+  vacation:
+    path: src/content/post/photo
+    output: true
+    icon: notes
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+  indieweb:
+    path: src/content/post/reply
+    output: true
+    icon: notes
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+  data:
+    path: src/data
+    output: false
+    icon: notes
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+  pages:
+    path: ''
+    output: true
+    filter: strict
+    icon: notes
+    disable_add: false
+    disable_add_folder: false
+    disable_file_actions: false
+_inputs: {}
+_select_data: {}
+_structures: {}
+_editables: {}
+data_config: {}
+timezone: Etc/UTC
